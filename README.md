@@ -35,8 +35,9 @@ This is a simple password generator that produces a random password based on use
 
 ## Example Output
 ```bash
-||Password Generator|| Welcome to password generator, according to your preferences, it will produce random password!
-Let's Start Length(1-50): 9
+||Password Generator||
+Welcome to password generator, according to your preferences, it will produce random password! Let's Start
+Length(1-50): 9
 Case preference (ABC(u), abc(l), AbC(b)): b
 Special character preference (y/n): y
 Numerical character preference (y/n): y
