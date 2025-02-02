@@ -42,7 +42,8 @@ Case preference (ABC(u), abc(l), AbC(b)): b
 Special character preference (y/n): y
 Numerical character preference (y/n): y
 
-Password generated! W`Rj[?~t8
+Password generated!
+W`Rj[?~t8
 ```
 
 ---
