@@ -1,44 +1,51 @@
-# password_generator
-Get the user preferences, produce and print the password.
+# Password Generator
 
-Algorithm:
-Password Generator
+This is a simple password generator that produces a random password based on user preferences such as length, case (upper, lower, or both), and inclusion of special and numerical characters.
 
-//it has length choice(not with func) 
-//it has options about upper lower letters(just make one function according to user's preferences make all of them upper, lower or turn randomly lower or upper)
-//it has options about special characters
+---
 
-// Basic logic, get the user preferences, produce and print the password.
+## Features
 
-//Algorithm
-//Enter functions one by one according to preferences
-//concatenate produced strings by functions randomly 
-//print the result to user.
+- **Length Choice**: User can choose the length of the password (1-50 characters).
+- **Case Preferences**: User can select between uppercase, lowercase, or mixed case.
+- **Special Characters**: Option to include special characters in the password.
+- **Numerical Characters**: Option to include numbers in the password.
 
+---
 
+## Usage
 
-A3849KJFJK
-//go char by char in randomizer
-//apply random in each character
-//get one of the randomizer funcitons randomly and apply it.
-//end of the length return the password.
+1. Clone the repository:
+   ```bash
+    git clone https://github.com/yourusername/password-generator.git cd password-generator
+   ```
+2. Run the script:
+    ```bash
+    python password_generator.py
+   ```
+3. Follow the prompts to specify your preferences:
+- Enter the desired password length.
+- Choose case preference: uppercase (ABC), lowercase (abc), or mixed case (AbC).
+- Choose whether to include special characters.
+- Choose whether to include numbers.
 
-//Output
+4. The generated password will be displayed based on your selections.
 
-||Password Generator||
-*Welcome to password generator, according to your preferences, it will produce random password!
-Let's Start
-Length(1-50): 9
+---
 
-ABC(u), abc(l), AbC(b)
-Please enter case preference(enter a character): b
+## Example Output
+```bash
+||Password Generator|| Welcome to password generator, according to your preferences, it will produce random password!
+Let's Start Length(1-50): 9
+Case preference (ABC(u), abc(l), AbC(b)): b
+Special character preference (y/n): y
+Numerical character preference (y/n): y
 
-#$&
-Please enter special character preference(y, n): y
+Password generated! W`Rj[?~t8
+```
 
-123
-Please enter numerical character preference(y, n): y
+---
 
-Password generated! 
+## License
 
-W`Rj[?~t8
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
